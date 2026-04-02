@@ -1,13 +1,15 @@
 import { Link } from "expo-router";
 import React from "react";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const SignIn = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>SignIn</Text>
       <Link href="/(auth)/sign-up">Don't have an account? Sign Up</Link>
-    </View>
+      <Link href="/">Go Home</Link>
+    </SafeAreaView>
   );
 };
 
