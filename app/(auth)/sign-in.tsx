@@ -7,7 +7,7 @@ const SignIn = () => {
   return (
     <SafeAreaView>
       <Text>SignIn</Text>
-      <Link href="/(auth)/sign-up">Don't have an account? Sign Up</Link>
+      <Link href="/(auth)/sign-up">Don&apos;t have an account? Sign Up</Link>
       <Link href="/">Go Home</Link>
     </SafeAreaView>
   );
